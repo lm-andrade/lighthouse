@@ -1,1 +1,40 @@
 logs/
+# Pasta de imagens
+images/
+
+# Exceção: se quiser manter algumas imagens específicas, use:
+# !images/arquivo_importante.png
+# !images/diagrama_arquitetura.png
+
+# Outras exclusões comuns para projetos Python/Docker
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+.env.local
+.env.production
+.env.test
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Airflow
+airflow/logs/
+airflow/plugins/
+airflow/airflow.cfg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
